@@ -1,7 +1,8 @@
 ﻿using System;
 
-namespace robot
-{
+namespace robot {
+
+
    /*
     1) Application (Console)
     2) class contains all operators (+ - * / %)
@@ -40,31 +41,34 @@ namespace robot
               Console.WriteLine("this is * operation");
               int result = multi( x , y);
            }  
+         }
 
-
-         static int Plus (int x, int y){
+     static int Plus (int x, int y){
            var a =  x + y;
           
            return a;
-        
+      }  
           
-        }
-          static int division(int x, int y){
+    
+     static int division(int x, int y){
            var a =  x / y;
           
            return a;
         
-        }
-          static int minus(int x , int y ){
+      }
+     static int minus(int x , int y ){
             var a =  x - y;
 
             return a;
-        }
-           static int multi(int x, int y)
-        {
+      }
+     static int multi(int x, int y){
             var a = x * y;
 
             return a;
-        }
+      }
+
+    }
+} 
+  
 
      
